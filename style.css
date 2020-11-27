@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url("./212.jpg");
+  
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  margin: 0;
+  
+
+}
+@media only screen and (max-width: 600px) {
+  
+  h1{
+    font-weight: bold;
+    font-size: 3rem !important;
+    margin-top: auto !important;
+  }
+}
+
+  h1{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: -35rem;
+  }
+
+.bigText {
+  font-size: 6rem;
+  line-height: 1 ;
+  margin: 1rem 2rem;
+}
+
+.countdownContainer{
+  display: flex;
+  /* to make the page responce  */
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+}
+
+.countdownElement {
+  text-align: center ;
+
+}
+
+.countdownElement span{
+  font-size: 2rem;
+}
